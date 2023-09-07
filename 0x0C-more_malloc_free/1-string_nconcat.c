@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 /**
- * string_concat - Concatenates two strings.
- * @1: First string to concatenate.
- * @2: Second string to concatenate.
+ * string_nconcat - Concatenates two strings.
+ * @s1: First string to concatenate.
+ * @s2: Second string to concatenate.
  * @n: ...
  *
  * Return: Always 0.
  */
 
-char *string_nconcat(char *s1, char*s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned i = 0, j = 0, k = 0, l = 0;
+	unsigned int i = 0, j = 0, k = 0, l = 0;
 	char *str;
 
 	if (s1 == NULL)
