@@ -3,8 +3,8 @@
 
 /**
  * free_grid - Frees a two dimensional grid.
- * @grid - Address of the two dimensional grid.
- * @height - Height of the grid.
+ * @grid: - Address of the two dimensional grid.
+ * @height: - Height of the grid.
  *
  * Return: Always (0)
  */
