@@ -4,12 +4,12 @@
 
 /**
  * malloc_checked - Allocates memory.
- * @b - The size to allocate.
+ * @b: The size to allocate.
  *
- * Return: Always 0.
+ * Return: Nothing.
  */
 
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
 	void *p;
 
