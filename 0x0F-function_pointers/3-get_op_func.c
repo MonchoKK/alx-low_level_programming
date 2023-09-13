@@ -3,7 +3,8 @@
 #include <string.h>
 
 /**
- * get_op_func - Returns a pointer to the function that corresponds to the operator.
+ * get_op_func - Returns a pointer to the function
+ * that corresponds to the operator.
  * @s: The operator passed as argument to the program.
  *
  * Return: Nothing.

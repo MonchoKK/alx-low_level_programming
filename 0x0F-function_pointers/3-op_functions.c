@@ -34,7 +34,7 @@ int op_sub(int a, int b)
  * @a: num 1.
  * @b: num 2.
  *
- * Returns: Nothing.
+ * Return: Nothing.
  */
 
 int op_mul(int a, int b)
