@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * op _add - Returns the sum of a and b.
+ * op_add - Returns the sum of a and b.
  * @a: num 1.
  * @b: num 2.
  *
