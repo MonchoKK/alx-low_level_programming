@@ -7,7 +7,7 @@
  * @...: A variable number of parametersto calculate the sum of.
  *
  * Return: if n == 0 - 0.
- * 	otherwise - the sum of all parameters.
+ *	otherwise - the sum of all parameters.
  */
 
 int sum_them_all(const unsigned int n, ...)
