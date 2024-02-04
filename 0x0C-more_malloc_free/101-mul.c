@@ -50,7 +50,7 @@ void errors(void)
 }
 
 /**
- * main - multiplies two positive numbers 
+ * main - multiplies two positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
  *
@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
 			carry /= 10;
 		}
 		if (carry > 0)
-			result[len1 +len2 + 1] += carry;
+			result[len1 + len2 + 1] += carry;
 	}
 	for (i = 0; i < len - 1; i++)
 	{
