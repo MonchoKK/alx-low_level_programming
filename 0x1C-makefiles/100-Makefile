@@ -1,0 +1,23 @@
+# A target, all, creates an executable, school
+.PHONY : all clean oclean fclean re
+# variables
+CC = gcc
+SRC = main.c school.c
+OBJ = ${SRC:%.c=%.o}
+NAME = school
+
+# link the objects into an excecutable, school
+all: m.h ${OBJ}
+	${CC} ${OBJ} -o ${NAME}
+# force recompilatiom of all source files 
+re: oclean all
+
+# deletes all Emacs and Vim temporary files along with the executable
+clean:
+	${RM} *~ ${NAME}
+
+# delete the object files
+oclean:
+	${RM} ${OBJ}
+# delete all Emacs and Vim temp files, the excutable and object files
+fclean: clean oclean
